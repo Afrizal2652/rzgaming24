@@ -32,12 +32,13 @@ body {
 }
 
 nav {
-    background-color: navy; /* Warna latar belakang navigasi */
+    background: linear-gradient(90deg, navy, #1a73e8);
     padding: 10px 0;
-    position: sticky; /* Navigasi tetap di atas saat di-scroll */
+    position: sticky;
     top: 0;
-    z-index: 1000; /* Menempatkan navigasi di atas konten lain */
+    z-index: 1000;
 }
+
 
 nav .wrapper {
     display: flex;
@@ -124,6 +125,7 @@ h1{
     transform: scale(1.05); /* Membuat gambar sedikit lebih besar saat di-hover */
     filter: brightness(0.9); /* Menggelapkan gambar sedikit saat di-hover */
 }
+
 
 .news-content {
     padding: 10px;

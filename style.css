@@ -62,7 +62,7 @@ nav ul li a {
     text-decoration: none;
     padding: 10px 20px;
     border: 2px solid white;
-    border-radius: 25px;
+    border-radius: 30px;
     transition: background-color 0.3s ease, color 0.3s ease;
     line-height: 80px; /* Tinggi garis untuk memusatkan vertikal */
 }
@@ -71,6 +71,7 @@ nav ul li a:hover {
     background-color: white;
     color: navy;
 }
+
 
 section#Home {
     margin: 100px auto 50px auto; /* Pusatkan dan atur margin atas dan bawah */

@@ -57,16 +57,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white; /* Warna teks menu */
+    color: white;
     font-weight: bold;
     text-decoration: none;
-    padding: 0 16px; /* Ruang padding untuk setiap link menu */
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
     line-height: 80px; /* Tinggi garis untuk memusatkan vertikal */
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Efek garis bawah saat hover */
-}
+    background-color: white;
+    color: navy;
 
 section#Home {
     margin: 100px auto 50px auto; /* Pusatkan dan atur margin atas dan bawah */

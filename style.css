@@ -160,8 +160,11 @@ h1 {
     text-align: center;
 }
 
-.pagination{
+.pagination {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .footer {
     background-color: #333;

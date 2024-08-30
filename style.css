@@ -161,7 +161,7 @@ h1 {
 }
 
 .pagination{
-    text-align: center;
+    align-items: center;
 }
 .footer {
     background-color: #333;

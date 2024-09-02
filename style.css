@@ -84,7 +84,7 @@ section#Home img {
     padding: 20px;
 }
 
-.kolom.deskripsi {
+.kolom .deskripsi {
     font-size: 18px;
     font-weight: bold;
     font-family: 'Comic Sans MS', sans-serif;
@@ -166,6 +166,7 @@ h1 {
     align-items: center;
     margin-top: 20px;
 }
+
 .pagination a {
     color: #fff;
     background-color: #444;
@@ -179,29 +180,6 @@ h1 {
 .pagination a:hover {
     background-color: #666;
 }
+
 .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-content p {
-    margin: 0;
-    font-size: 14px;
-}
-
-.footer-menu {
-    margin-top: 10px;
-}
-
-.footer-menu a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.footer-menu a:hover {
-    text-decoration: underline;
-}
+    background-color: #

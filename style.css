@@ -84,7 +84,7 @@ section#Home img {
     padding: 20px;
 }
 
-.kolom .deskripsi {
+.kolom.deskripsi {
     font-size: 18px;
     font-weight: bold;
     font-family: 'Comic Sans MS', sans-serif;
@@ -159,13 +159,12 @@ h1 {
     color: #333;
     text-align: center;
 }
+
 .footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 .footer-content p {
@@ -175,36 +174,15 @@ h1 {
 
 .footer-menu {
     margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
 }
 
 .footer-menu a {
     color: #fff;
+    margin: 0 15px;
     text-decoration: none;
     font-size: 14px;
-    transition: text-decoration 0.3s ease;
 }
 
 .footer-menu a:hover {
     text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-    .footer-menu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-menu a {
-        margin: 5px 0;
-    }
-}
-
-@media (min-width: 769px) {
-    .footer-menu {
-        flex-direction: row;
-    }
 }

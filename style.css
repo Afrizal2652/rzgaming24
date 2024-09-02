@@ -159,7 +159,6 @@ h1 {
     color: #333;
     text-align: center;
 }
-
 .pagination {
     display: flex;
     justify-content: center;
@@ -182,4 +181,25 @@ h1 {
 }
 
 .footer {
-    background-color: #
+    background-color: #444; /* Ubah ini menjadi warna abu-abu */
+    color: #fff;
+    text-align: center; /* Memusatkan konten di footer */
+    padding: 20px 0;
+}
+
+.footer-menu {
+    margin-top: 10px;
+}
+
+.footer-menu a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+    color: #ccc;
+}
+
+

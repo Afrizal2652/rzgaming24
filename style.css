@@ -159,32 +159,16 @@ h1 {
     color: #333;
     text-align: center;
 }
-.pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.pagination a {
-    color: #fff;
-    background-color: #444;
-    padding: 8px 12px;
-    margin: 0 5px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.pagination a:hover {
-    background-color: #666;
-}
-
 .footer {
-    background-color: #444; /* Ubah ini menjadi warna abu-abu */
+    background-color: #333;
     color: #fff;
-    text-align: center; /* Memusatkan konten di footer */
     padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
 }
 
 .footer-menu {
@@ -193,13 +177,14 @@ h1 {
 
 .footer-menu a {
     color: #fff;
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
-    transition: color 0.3s ease;
+    font-size: 14px;
 }
 
 .footer-menu a:hover {
-    color: #ccc;
+    text-decoration: underline;
 }
+
 
 

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a i {
+    font-size: 30px;
+}
+margin: 0;
+    
+.menu {
+    background-color: navy;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    transition: text-decoration 0.3s ease;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section#Home {
+    margin: 100px auto 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.kolom {
+    padding: 0 20px;
+    margin-top: -30px;
+}
+
+.kolom.deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.kolom h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+.content{
+    padding: 16px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Comic Sans MS', sans-serif; /* Nama font yang benar */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Pastikan Flexbox membungkus ke baris baru jika diperlukan */
+    gap: 10px; /* Sesuaikan jarak antar kotak berita */
+}
+
+.news-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 48%; /* Lebar disesuaikan agar dua kotak bisa berjajar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.news-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Mengatur gambar agar tetap rapi */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Menambahkan transisi untuk efek hover */
+}
+
+/* Efek hover ditambahkan setelah pengaturan default */
+.news-box img:hover {
+    transform: scale(1.05); /* Membuat gambar sedikit lebih besar saat di-hover */
+    filter: brightness(0.9); /* Menggelapkan gambar sedikit saat di-hover */
+}
+.news-date {
+    font-size: 12px;
+    color: black;
+    margin-top: 5px;
+}
+
+
+.news-content {
+    padding: 10px;
+}
+
+.news-title {
+    font-size: 16px; /* Sesuaikan ukuran font dengan ukuran gambar */
+    font-weight: bold;
+    color: #333;
+    text-align: center; /* Pusatkan teks */
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-menu {
+    margin-top: 10px;
+}
+
+.footer-menu a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}

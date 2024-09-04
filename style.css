@@ -159,6 +159,26 @@ h1 {
     color: #333;
     text-align: center;
 }
+.pagination {
+  display: flex;                  /* Mengubah elemen menjadi flexbox */
+  justify-content: center;        /* Menengahkan elemen anak secara horizontal */
+  padding: 10px 0;                /* Memberikan jarak vertikal antara pagination dan elemen lainnya */
+}
+.pagination a {
+  margin: 0 5px;                  /* Memberikan jarak antar nomor halaman */
+  padding: 8px 16px;              /* Mengatur ukuran area klik untuk setiap nomor halaman */
+  text-decoration: none;          /* Menghilangkan garis bawah pada tautan */
+  color: black;                   /* Mengatur warna teks */
+  border: 1px solid #ddd;         /* Menambahkan garis tepi pada setiap nomor halaman */
+}
+.pagination a:hover {
+  background-color: #ddd;         /* Mengubah warna latar belakang ketika link di-hover */
+}
+.pagination a.active {
+  background-color: #4CAF50;      /* Mengatur warna latar belakang untuk halaman aktif */
+  color: white;                   /* Mengatur warna teks untuk halaman aktif */
+  border: 1px solid #4CAF50;      /* Mengatur warna garis tepi untuk halaman aktif */
+}
 
 .footer {
     background-color: #333;
